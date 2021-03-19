@@ -1,0 +1,22 @@
+{
+  "name": "routing-interop/dispatcher-symfony",
+  "description": "symfony/routing implementation dor routing-interop/dispatcher-symfony",
+  "license": "MIT",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Keven Godet",
+      "email": "hello@keven.fr"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Interop\\Routing\\Symfony\\": "src"
+    }
+  },
+    "require": {
+      "symfony/routing": "^5.2",
+      "routing-interop/dispatcher": "^0.0.1"
+    },
+  "minimum-stability": "beta"
+}
